@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf=8">
+        <title>설문지</title>
+    </head>
+    <body>
+        <form>
+            학년:<input type="radio" name="grade" value="1"> 1학년
+            <input type="radio" name="grade" value="2"> 2학년
+            <input type="radio" name="grade" value="3"> 3학년
+            <input type="radio" name="grade" value="4"> 4학년 <br>
+
+            성별:<input type="radio" name="sex" value="1"> 남성
+            <input type="radio" name="sex" value="2"> 여성<br>
+            
+            관심분야:<input type="text" list="fav">
+            <datalist id="fav">
+                <option value="여행">
+                <option value="게임">
+                    <option value="운동">
+            </datalist><br>
+        
+            진로:개발<input type="checkbox" value="1">
+            기획<input type="checkbox" value="2">
+            영업<input type="checkbox" value="3">
+            창업<input type="checkbox" value="4"><br>
+
+            남기고 싶은 말<br>
+            <textarea cols="20"rows="5">
+                남기고 싶은 말을 적어주세요
+       </textarea>
+        </form>
+    </body>
+</html>
